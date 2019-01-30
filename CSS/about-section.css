@@ -11,6 +11,7 @@
  }
  #about-section .about-title {
      font-size: 2rem;
+     color: #232323;
  }
  
  #about-section .fa-dumbbell {
@@ -52,10 +53,9 @@
      color: white;
  }
 
-
-
  #about-container .about-right-title{
      padding-bottom: 20px;
+     color: #232323;
  }
  #about-container .about-right-p{
  color: #868686;

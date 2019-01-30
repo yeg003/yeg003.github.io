@@ -3,7 +3,8 @@
 @import "info-section.css";
 @import "schedule-section.css";
 @import "prices.css";
-
+@import "call-to-action.css";
+@import "blog-section.css";
 * {
     font-family:  Helvetica, sans-serif;
     padding: 0;
@@ -25,10 +26,10 @@
 }
 .wrapper .logo{
     font-weight: 900;
-    font-size: 1.7rem;    
+    font-size: 1.7rem; 
+    color: #232323;   
 }
 .wrapper ul{
-
     font-weight: 700;
 }
 
@@ -39,7 +40,7 @@
 
 .wrapper a {
   text-decoration: none;
-  color: black;
+  color: #232323;
 }
 .wrapper a:hover{
     color: orangered;
