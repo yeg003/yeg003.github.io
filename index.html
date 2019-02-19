@@ -12,6 +12,8 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 
 </head>
 
@@ -22,10 +24,10 @@
         <div class="topnav" id="myTopnav">
             <a href="#home" class="active logo"><span>Gain</span>Fitness</a>
             <a href="#about-section">About</a>
-            <a href="prices.html" target="_blank">Prices</a>
-            <a href="trainers.html" target="_blank">Trainers</a>
-            <a href="blog.html" target="_blank">Blog</a>
-            <a href="#">Contact</a>
+            <a href="prices.html">Prices</a>
+            <a href="trainers.html">Trainers</a>
+            <a href="blog.html">Blog</a>
+            <a href="#footer-section">Contact</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
@@ -48,13 +50,12 @@
         <p class="about-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio eveniet ducimus, nisi
             sint
             iste sed ratione
-            ab animi quaerat, voluptates corporis aliquid et fuga ut sapiente necessitatibus sit modi quibusdam?</p>
+        </p>
         <div id="about-container">
             <div class="about-left">
-                <p class="about-left-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quos
-                    voluptas aut aperiam eaque
-                    obcaecati in. Ipsa iure minus facere at dignissimos voluptatibus, voluptates veniam, recusandae
-                    vitae, corrupti et deserunt.</p>
+                <p class="about-left-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+                    quosvoluptas aut aperiam eaqueo bcaecati in. Ipsa iure minus facere at dignissimos voluptatibus,
+                    voluptates veniam, recusandae vitae, corrupti et deserunt.</p>
                 <p class="about-left-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quos
                     voluptas aut aperiam eaque
                     obcaecati in. Ipsa iure minus facere at dignissimos voluptatibus, voluptates veniam, recusandae
@@ -70,15 +71,15 @@
             <div class="about-right">
                 <h3 class="about-right-title">Cardio Training</h3>
                 <p class="about-right-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quos
-                    voluptas aut aperiam eaque</p>
+                    voluptas aut aperiam eaque.</p>
 
                 <h3 class="about-right-title">Yoga Training</h3>
                 <p class="about-right-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quos
-                    voluptas aut aperiam eaque</p>
+                    voluptas aut aperiam eaque.</p>
 
                 <h3 class="about-right-title">Body Building</h3>
                 <p class="about-right-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate quos
-                    voluptas aut aperiam eaque</p>
+                    voluptas aut aperiam eaque.</p>
                 <button class="about-right-btn"><a href="#">Get Started</a></button>
 
             </div>
@@ -119,44 +120,44 @@
                 doloribus explicabo commodi ex optio quod est soluta excepturi reprehenderit quisquam, dolor nulla.
                 Saepe, amet non.</p>
             <div class="class-info">
-                <div class="crossfit">
+                <div class="crossfit hover">
                     <div class="crossfit-content">
-                        <h3 class="crossfit-name">Crossfit</h3>
+                        <h3 class="crossfit-name hover-bg">Crossfit</h3>
                         <h3 class="crossfit-date">Mon - Wed</h3>
                         <h3 class="crossfit-time">9:00 am - 12 pm</h3>
                     </div>
                 </div>
-                <div class="cardio">
+                <div class="cardio hover">
                     <div class="cardio-content">
-                        <h3 class="cardio-name">Cardio Training</h3>
+                        <h3 class="cardio-name hover-bg">Cardio Training</h3>
                         <h3 class="cardio-date">Thu - Sat</h3>
                         <h3 class="cardio-time">9:00 am - 12 pm</h3>
                     </div>
                 </div>
-                <div class="yoga ">
+                <div class="yoga hover">
                     <div class="yoga-content">
-                        <h3 class="yoga-name">Yoga Training</h3>
+                        <h3 class="yoga-name hover-bg">Yoga Training</h3>
                         <h3 class="yoga-date">Sundays </h3>
                         <h3 class="yoga-time">6:00 am - 6 pm</h3>
                     </div>
                 </div>
-                <div class="aerobic">
+                <div class="aerobic hover">
                     <div class="aerobic-content">
-                        <h3 class="aerobic-name">Aerobic Training</h3>
+                        <h3 class="aerobic-name hover-bg">Aerobic Training</h3>
                         <h3 class="aerobic-date">Weekdays </h3>
                         <h3 class="aerobic-time">7:00 am - 5 pm</h3>
                     </div>
                 </div>
-                <div class="body-building">
+                <div class="body-building hover">
                     <div class="body-content">
-                        <h3 class="body-name">Body Building</h3>
+                        <h3 class="body-name hover-bg">Body Building</h3>
                         <h3 class="body-date">Weekends </h3>
                         <h3 class="body-time">5 am - 5 pm</h3>
                     </div>
                 </div>
-                <div class="martial-arts">
+                <div class="martial-arts hover">
                     <div class="martial-content">
-                        <h3 class="martial-name">Martial Arts</h3>
+                        <h3 class="martial-name hover-bg">Martial Arts</h3>
                         <h3 class="martial-date">Weekends </h3>
                         <h3 class="martial-time">6 pm - 8 pm</h3>
                     </div>
@@ -259,14 +260,15 @@
                 </p>
             </div>
             <div class="right-call">
-                <button class="call-btn">Join Us</button>
+                <button class="call-btn"><a href="#">Join Us</a></button>
             </div>
         </div>
     </section>
+    <!-- Footer section -->
     <footer id="footer-section">
         <div class="footer-container">
             <div class="footer-1">
-                <h2 class="logo"><span>Gain</span>Fitness</h2>
+                <h2 class="logo footer-title"><span>Gain</span>Fitness</h2>
                 <p class="footer-1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aperiam
                     molestiae dolorem
                     voluptate repellat, possimus labore quos quae facilis. </p>
@@ -276,7 +278,7 @@
                 </div>
                 <div class="footer-number">
                     <i class="fas fa-phone"></i>
-                    <p>555-555-5555</p>
+                    <p class="num">555-555-5555</p>
                 </div>
                 <div class="footer-email">
                     <i class="fas fa-envelope"></i>
@@ -290,19 +292,19 @@
                 </div>
             </div>
             <div class="footer-2">
-                <h2>Useful Links</h2>
+                <h2 class="footer-title">Useful Links</h2>
                 <div class="footer-2-links">
-                    <a href="#">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="#about-section">About</a>
-                    <a href="prices.html" target="_blank">Prices</a>
-                    <a href="prices.html" target="_blank">Trainers</a>
-                    <a href="blog.html" target="_blank">Blog</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="prices.html">Prices</a>
+                    <a href="prices.html">Trainers</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="#footer-section">Contact</a>
                     </ul>
                 </div>
             </div>
             <div class="footer-3">
-                <h2>Hours of Operation</h2>
+                <h2 class="footer-title">Hours of Operation</h2>
                 <div class="footer-hours-container">
                     <div class="hours-wrapper ">
                         <p class="hours-left">Mon - Tue:</p>
@@ -326,7 +328,7 @@
     </footer>
     <section id="copyright-section">
 
-        <p>&copy;Copyright | 2019. All rights reserved. <span>GainFitness</span>.</p>
+        <p class="copyright">&copy;Copyright | 2019. All rights reserved. <span>GainFitness</span>.</p>
 
     </section>
 
